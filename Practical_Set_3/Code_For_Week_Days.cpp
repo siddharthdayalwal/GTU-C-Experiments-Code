@@ -11,45 +11,45 @@ void main()
   s("%d",&a);
   switch(a)
   {
-    case 1:
-    {
-	    p("\n It's a Sunday today.");
-    	break;
-    }
-    case 2:
-    {
-	    p("\n It's a Monday today.");
-	    break;
-    }
-    case 3:
-    {	
-      p("\n It's a Tuesday today.");
-	    break;
-    }
-    case 4:
-	  {
-      p("\n It's a Wednesday today.");
-	    break;
-    }
-    case 5:
-	  {
-      p("\n It's a Thursday today.");
-	    break;
-    }
-    case 6:
-	  {
-      p("\n It's a Friday today.");
-	    break;
-    }
-    case 7:
-	  {
-      p("\n It's a Saturday today.");
-	    break;
-    }
-    default:
-	  {  
-      p("\n Not a Valid DAY_CODE.");
-    }
+	case 1:
+    	{
+		p("\n It's a Sunday today.");
+    		break;
+    	}
+    	case 2:
+    	{
+		p("\n It's a Monday today.");
+		break;
+    	}
+    	case 3:
+    	{	
+      		p("\n It's a Tuesday today.");
+		break;
+    	}
+    	case 4:
+	{
+      		p("\n It's a Wednesday today.");
+		break;
+    	}
+    	case 5:	
+	{
+      		p("\n It's a Thursday today.");
+	    	break;
+    	}
+    	case 6:
+	{
+      		p("\n It's a Friday today.");
+	    	break;
+    	}
+    	case 7:
+	{
+      		p("\n It's a Saturday today.");
+	    	break;
+    	}
+    	default:
+	{  
+      		p("\n Not a Valid DAY_CODE.");
+    	}	
   }
-  getch();
+ getch();
 }
