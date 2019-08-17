@@ -13,16 +13,16 @@ void main()
   min=n;
   for(i=2;i<=10;i++)
   {
-	  p("Enter the value.%d ::",i);
-	  s("%d",&n);
-	  if(n>max)
-	  {
-      max=n;
-    }
-	  if(n<min)
-	  {
-      min=n;
-    }
+	p("Enter the value.%d ::",i);
+	s("%d",&n);
+	if(n>max)
+	{
+      		max=n;
+    	}
+	if(n<min)
+	{
+      		min=n;
+	}
   }
   p("\n Maximum number is %d",max);
   p("\n Minimum number is %d",min);
