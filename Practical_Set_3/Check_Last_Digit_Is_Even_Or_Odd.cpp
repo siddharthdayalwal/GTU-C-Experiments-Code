@@ -1,4 +1,4 @@
-/*   FACTORIAL OF A NUMBER   */
+/*   CHECKING LAST DIGIT OF A NUMBER IS EVEN OR ODD   */
 #include<stdio.h>
 #include<conio.h>
 #define p printf
@@ -6,13 +6,18 @@
 void main()
 {
 	clrscr();
-	long int a,f=1,i;
-	p("\n Enter the number ::");
-	s("%ld",&a);
-	for(i=1;i<=a;i++)
+	int a;
+	p("\n Enter any number ::");
+	s("%d",&a);
+	a%=10;
+	p("\n Last digit of the above number is %d",a);
+	if(a%2==0)
 	{
-		f*=i;
+		p(" and it is even");
 	}
-	p("\n %ld! = %ld",a,f);
+	else
+	{
+		p(" and it is odd");
+	}
 	getch();
 }
