@@ -1,4 +1,6 @@
 /*   EVALUATING SERIES 1 + 1/2 + 1/3 +...+ 1/n   */
+/*   In the filename I have used backslash ( \ ) instead of divide ( / )    */
+
 #include<stdio.h>
 #include<conio.h>
 #define p printf
